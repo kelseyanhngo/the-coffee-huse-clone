@@ -1,0 +1,28 @@
+.container-promo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    // width: 500px;
+    align-items: center;
+    padding: 7px;
+  cursor: pointer;
+
+    .promotion-image{
+        margin-right: 10px;
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+    .part2{
+        p{
+            margin-bottom: 0px;
+        }
+        .promotion-status{
+            color: #ffa13b;
+        }
+    }
+}

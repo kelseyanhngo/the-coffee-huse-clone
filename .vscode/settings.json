@@ -1,0 +1,7 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+  "editor.cursorBlinking": "smooth",
+  "editor.acceptSuggestionOnEnter": "smart"
+}

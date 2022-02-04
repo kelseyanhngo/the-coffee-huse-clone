@@ -1,0 +1,274 @@
+.header {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  // width: 98.85vw;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+
+  background-color: #ffa13b;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__logo {
+    p {
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      margin: 0 auto;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  &__order {
+    background-color: #f38f0c;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    height: 60px;
+
+    padding: 10px;
+    border-radius: 47px;
+
+    > img {
+      width: 45px;
+      height: 45px;
+    }
+    > p {
+      font-size: 13px;
+
+      padding-left: 5px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .order-icon1 {
+      font-size: 22px;
+      margin: 13px 0px 10px 10px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+  &__list {
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+
+    color: white;
+
+    > li {
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+
+      > p {
+        margin-top: 0;
+        margin-bottom: 0.1rem;
+        font-size: 16.5px;
+      }
+    }
+  }
+  &__list p:hover {
+    padding: 2px 0px;
+    border-bottom: 2px solid #fff;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+  }
+  &__icon {
+    color: white;
+    cursor: pointer;
+
+    .icon1 {
+      font-size: 28px;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .icon2 {
+      font-size: 26px;
+      color: #fff;
+    }
+  }
+  .icon1:hover {
+    opacity: 0.8;
+  }
+  .icon2:hover {
+    opacity: 0.8;
+  }
+}
+.header__list {
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  a.active {
+    padding: 0px 0px;
+    border-bottom: 2px solid #fff;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+  }
+}
+
+.main-main {
+  display: flex;
+  justify-content: center;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+
+  height: 600px;
+  width: 570px;
+  .closing-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    i {
+      font-size: 28px;
+      color: #ffa13b;
+    }
+  }
+  .logine-img {
+    margin-bottom: 0px;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .login-title {
+    h4 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    label {
+      font-size: 18px;
+    }
+    input {
+      width: 400px;
+      height: 35px;
+      padding-left: 10px;
+
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid rgb(201, 192, 192);
+    }
+    input::placeholder {
+      font-style: italic;
+    }
+    input:focus {
+      border: none;
+      outline: none;
+
+      padding-left: 10px;
+    }
+    i {
+      margin-right: 7px;
+      font-size: 17px;
+      color: #fcac56;
+    }
+    h4 {
+      font-style: italic;
+      font-weight: 400;
+      margin-top: 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .login-button {
+      // width: 130px;
+      height: 35px;
+      border-radius: 15px;
+      background-color: #fcac56;
+      // border: 1px solid grey;
+      font-size: 18px;
+      font-style: italic;
+      border: none;
+
+    }
+    .login-button:hover {
+      opacity: 0.8;
+    }
+    .login-using {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+
+      .login-icon {
+        cursor: pointer;
+        i {
+          font-size: 18px;
+          color: #e78b12;
+        }
+      }
+    
+    }
+    .login-signup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+
+     
+        h5 {
+          font-size: 18px;
+          font-weight: 400;
+          cursor: pointer;
+        }
+
+    }
+  }
+}
+.main-main1 {
+  .container-main1 {
+    .closing-icon1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      i {
+        color: #ffa13b;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+    .span-part {
+      height: 35px;
+      background-color: rgb(226, 223, 223);
+      text-align: center;
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      // position: fixed;
+      span {
+        font-size: 18px;
+        margin-left: 5px;
+        font-style: italic;
+      }
+    }
+  }
+}

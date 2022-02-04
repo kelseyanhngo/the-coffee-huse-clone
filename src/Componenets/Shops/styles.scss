@@ -1,0 +1,40 @@
+.container-shop {
+  .title-shop {
+    margin-top: 20px;
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+      margin-top: 120px;
+    }
+    i {
+      font-size: 24px;
+      margin-right: 5px;
+      color: #f9a82e;
+    }
+  }
+
+  .list-shops {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    .box {
+      width: 150px;
+      height: 40px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+    }
+    .inactive {
+      background-color: none;
+    }
+    .active {
+      background-color: #ffcd60;
+      border-radius: 20px;
+    }
+  }
+}
