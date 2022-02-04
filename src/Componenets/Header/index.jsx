@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReactModal from "react-modal";
 import { Link, NavLink } from "react-router-dom";
 import Promotion from "../Promotion";
@@ -35,6 +35,9 @@ function Header(props) {
       marginTop: "70px",
     },
   };
+
+  
+
   return (
     <div className="header">
       <div className="header__logo">
