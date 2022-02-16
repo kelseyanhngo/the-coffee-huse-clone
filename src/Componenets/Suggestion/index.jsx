@@ -18,7 +18,6 @@ function Sugesstion({item, onSugClick}) {
         data-aos='zoom-in'
       data-aos-delay='0'
       data-aos-duration='800'
-    //   data-aos-mirror='true'
       data-aos-easing='ease'
         className="sugItem">
             {item.map((itm, idx) => (
